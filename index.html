@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Cours visuels pour découvrir et comprendre l'alpinisme.">
+  <title>Alpinisme — Centre de formation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#accueil" aria-label="Accueil">
+    <span class="brand-mark">A</span><span>ALPINISME<span class="brand-sub">CENTRE DE CONNAISSANCES</span></span>
+  </a>
+  <button class="menu-toggle" id="menuToggle" aria-label="Ouvrir le menu">☰</button>
+  <nav id="mainNav">
+    <a href="#accueil">Accueil</a>
+    <a href="#formations">Formations</a>
+    <a href="#methode">Méthode</a>
+    <a href="#sources">Sources</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero" id="accueil">
+    <div class="hero-shade"></div>
+    <div class="hero-content">
+      <p class="eyebrow">APPRENDRE · COMPRENDRE · PROGRESSER</p>
+      <h1>La montagne<br><em>s'apprend.</em></h1>
+      <p class="hero-copy">Un espace pédagogique pour découvrir l'environnement montagnard, comprendre le matériel et acquérir les connaissances essentielles à une pratique responsable de l'alpinisme.</p>
+      <a class="button button-light" href="#formations">Explorer les formations <span>→</span></a>
+    </div>
+    <div class="hero-note"><span class="dot"></span> Manuel pédagogique indépendant · Accès libre</div>
+  </section>
+
+  <section class="intro section-wrap">
+    <div>
+      <p class="eyebrow dark">LE PROJET</p>
+      <h2>Comprendre avant<br>de progresser.</h2>
+    </div>
+    <p class="intro-text">L'alpinisme demande des connaissances variées : météo, terrain, neige, équipement, orientation et sécurité. Ce site rassemble ces notions sous forme de cours courts, d'illustrations et de fiches de révision.</p>
+  </section>
+
+  <section class="courses section-wrap" id="formations">
+    <div class="section-heading">
+      <div><p class="eyebrow dark">PARCOURS PÉDAGOGIQUE</p><h2>Les formations</h2></div>
+      <label class="search-box"><span>⌕</span><input id="searchInput" type="search" placeholder="Rechercher un sujet…" aria-label="Rechercher un sujet"></label>
+    </div>
+    <div class="filter-row" id="filterRow">
+      <button class="filter active" data-filter="all">Tout voir</button>
+      <button class="filter" data-filter="bases">Les bases</button>
+      <button class="filter" data-filter="milieu">Milieu montagnard</button>
+      <button class="filter" data-filter="technique">Technique</button>
+      <button class="filter" data-filter="securite">Sécurité & progression</button>
+    </div>
+    <div class="course-grid" id="courseGrid"></div>
+    <p class="no-results" id="noResults" hidden>Aucun chapitre ne correspond à cette recherche.</p>
+  </section>
+
+  <section class="notice-band" id="methode">
+    <div class="notice-icon">!</div>
+    <div><p class="eyebrow">APPRENTISSAGE RESPONSABLE</p><h2>La théorie ne remplace pas la pratique encadrée.</h2>
+      <p>Ce site est un support pédagogique. Les manipulations de corde, l'assurage, les ancrages, la progression glaciaire et les secours nécessitent une formation pratique avec un encadrant qualifié. Ne tente jamais une manœuvre technique sur la seule base d'une page web.</p>
+    </div>
+  </section>
+
+  <section class="sources section-wrap" id="sources">
+    <p class="eyebrow dark">FIABILITÉ DES CONTENUS</p>
+    <h2>Des connaissances à vérifier.</h2>
+    <p>Les futurs chapitres devront citer leurs sources et préciser la date de mise à jour. Pour les sujets sensibles, privilégier les organismes spécialisés et les documents officiels.</p>
+    <div class="source-list">
+      <a href="https://www.anena.org/" target="_blank" rel="noopener">ANENA <span>Neige et avalanches ↗</span></a>
+      <a href="https://meteofrance.com/" target="_blank" rel="noopener">Météo-France <span>Météorologie ↗</span></a>
+      <a href="https://www.ign.fr/" target="_blank" rel="noopener">IGN <span>Cartographie ↗</span></a>
+      <a href="https://www.ffcam.fr/" target="_blank" rel="noopener">FFCAM <span>Montagne et formation ↗</span></a>
+      <a href="https://commons.wikimedia.org/" target="_blank" rel="noopener">Wikimedia Commons <span>Photographies et illustrations ↗</span></a>
+    </div>
+  </section>
+</main>
+
+<footer><a class="brand footer-brand" href="#accueil"><span class="brand-mark">A</span><span>ALPINISME<span class="brand-sub">CENTRE DE CONNAISSANCES</span></span></a><p>Projet pédagogique personnel · Contenus à compléter et à vérifier.</p><a href="#accueil" class="back-top">Retour en haut ↑</a></footer>
+<script src="script.js"></script>
+</body>
+</html>
