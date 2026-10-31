@@ -10,7 +10,7 @@ const courses = [
   {n:"09",title:"Orientation et navigation",cat:"technique",label:"TECHNIQUE",desc:"Cartes IGN, courbes de niveau, boussole, GPS et itinéraires.",img:"images/orientation.jpg"},
   {n:"10",title:"Préparer une course",cat:"bases",label:"ORGANISATION",desc:"Topo, difficulté, météo, matériel, horaires et plan B.",img:"images/preparation-itineraire.jpg"},
   {n:"11",title:"Sécurité et secours",cat:"securite",label:"SÉCURITÉ",desc:"Prévention, risques, alerte, premiers secours et décisions.",img:"images/securite-secours.jpg"},
-  {n:"12",title:"Vie en montagne",cat:"bases",label:"ORGANISATION",desc:"Refuges, bivouac, alimentation, hydratation et environnement.",img:"https://images.unsplash.com/photo-1464278533981-50106e6176b1?auto=format&fit=crop&w=900&q=80"},
+  {n:"12",title:"Vie en montagne",cat:"bases",label:"ORGANISATION",desc:"Refuges, bivouac, alimentation, hydratation et environnement.",img:"images/vie-en-montagne.jpg"},
   {n:"13",title:"Préparation physique",cat:"securite",label:"PROGRESSION",desc:"Endurance, force, équilibre, récupération et préparation mentale.",img:"https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=900&q=80"},
   {n:"14",title:"Progresser vers l'autonomie",cat:"securite",label:"PROGRESSION",desc:"Expérience, responsabilités, limites et progression encadrée.",img:"images/autonomie.jpg"},
   {n:"15",title:"Culture alpine et grandes courses",cat:"bases",label:"CULTURE",desc:"Histoire, massifs, sommets emblématiques et études de courses.",img:"https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=900&q=80"}
